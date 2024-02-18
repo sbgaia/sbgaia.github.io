@@ -118,6 +118,16 @@
     }
  
   ],
+  "visiting experience": [
+    {
+      "place": "Technische Universität München (TUM) - Institute of Automation and Information Systems",
+      "status": "Visiting Ph.D. student",
+      "startDate": "2024-02-10",
+      "endDate": "2024-08-08",
+      "url": "https://www.ed.tum.de/ed/startseite/",
+      "supervisor": "Prof. Dr.-Ing. Birgit Vogel-Heuser"
+    }
+  ],
   "volunteer": [
     // {
     //   "organization": "People's Climate March",
