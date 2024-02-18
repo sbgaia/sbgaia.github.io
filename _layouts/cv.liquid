@@ -70,11 +70,13 @@ layout: default
     <article>
       <div class="cv">
         {% for data in site.data.resume %}
+        {% comment %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
             {% unless site.jsonresume contains data[0] %}
               {% continue %}
             {% endunless %}
           {% endif %}
+          {% endcomment %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
@@ -87,6 +89,8 @@ layout: default
                   {% include resume/education.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
+                {% when 'teaching activities' %}
+                  {% include resume/tutoring_activities.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
