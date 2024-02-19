@@ -1,6 +1,11 @@
 ---
 ---
 <div class="row">
+  <!-- Entry number -->
+  <!-- Not working <div class="col-sm-2">
+    <label><b>[{{ index }}]</b></label>
+  </div> -->
+
   {% if site.enable_publication_thumbnails %}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {% if entry.preview %}
