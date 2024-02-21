@@ -246,7 +246,7 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "{assets,blog,cv,lighthouse_results,news,projects,pubblications}"
+      path: "**/{assets,blog,lighthouse_results,news,projects}/**"
     values:
       sitemap: false
 
