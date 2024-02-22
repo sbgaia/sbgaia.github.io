@@ -1,4 +1,13 @@
 User-agent: *
-Disallow:
+Disallow: /blog/
+
+User-agent: *
+Disallow: /lighthouse_results/
+
+User-agent: *
+Disallow: /news/
+
+User-agent: *
+Disallow: /projects/
 
 Sitemap: https://sbgaia.github.io/sitemap.xml
