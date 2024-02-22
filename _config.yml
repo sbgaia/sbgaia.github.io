@@ -249,6 +249,26 @@ defaults:
       path: "**/{assets,blog,lighthouse_results,news,projects}/**"
     values:
       sitemap: false
+  - scope:
+      path: "blog"
+    values:
+      sitemap: false
+  - scope:
+      path: "lighthouse_results"
+    values:
+      sitemap: false
+  - scope:
+      path: "news"
+    values:
+      sitemap: false
+  - scope:
+      path: "projects"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
 
 sass:
   style: compressed
