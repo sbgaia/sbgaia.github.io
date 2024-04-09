@@ -28,7 +28,7 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default  # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
@@ -313,7 +313,7 @@ display_tags: []
 #   "modeling",
 #   "process_control"
 #   ] #["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["accepted_papers"] #["blockquotes"] # these categories will be displayed on the front page of your blog
+display_categories: ["accepted_papers","accepted_journals"] #["blockquotes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -345,7 +345,7 @@ scholar:
   group_order: descending
 
 # Enable GDPR banner
-enable_gdpr_banner: false
+enable_gdpr_banner: true
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
