@@ -2,15 +2,6 @@
 permalink: /robots.txt
 ---
 User-agent: *
-Disallow: /blog/
-
-User-agent: *
-Disallow: /lighthouse_results/
-
-User-agent: *
-Disallow: /news/
-
-User-agent: *
-Disallow: /projects/
+Disallow:
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
