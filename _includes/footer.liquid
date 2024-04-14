@@ -11,9 +11,6 @@
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
-      {% if site.enable_gdpr_banner %}
-      <a href="#" id="open_preferences_center">Update cookies preferences</a>
-      {% endif %}
     </div>
   </footer>
 {% else %}
@@ -28,9 +25,6 @@
       {% endif %}
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
-      {% if site.enable_gdpr_banner %}
-      <a href="#" id="open_preferences_center">Update cookies preferences</a>
       {% endif %}
     </div>
   </footer>

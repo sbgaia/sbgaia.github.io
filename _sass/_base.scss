@@ -127,6 +127,22 @@ blockquote {
   }
 }
 
+// Checklist
+
+ul.task-list {
+  list-style-type: none; /* Remove bullets from all levels */
+}
+
+ul.task-list > li ul {
+  /* Nested lists within .task-list */
+  padding-inline-start: 1.5rem;
+}
+
+ul.task-list input[type="checkbox"] {
+  margin: 0.275rem 0.5rem 0.5rem -1rem;
+  vertical-align: middle;
+}
+
 // Math
 
 .equation {
@@ -753,6 +769,9 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+        a.award.btn {
+          border-color: var(--global-highlight-color);
+        }
       }
 
       .badges {
@@ -809,6 +828,12 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+    }
+    div.award.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+    div.award.hidden.open {
+      border-color: var(--global-highlight-color);
     }
   }
 }
