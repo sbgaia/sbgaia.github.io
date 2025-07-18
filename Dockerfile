@@ -54,7 +54,9 @@ ENV EXECJS_RUNTIME=Node \
 RUN mkdir /srv/jekyll
 
 # copy the Gemfile and Gemfile.lock to the image
-ADD Gemfile.lock /srv/jekyll
+# remove this line if you get and error when you run the image
+# /usr/local/bundle/gems/bundler-2.7.0/lib/bundler/source/git/git_proxy.rb:367:in 'Bundler::Source::Git::GitProxy#allowed_with_path': The git source https://github.com/RobertoJBeltran/jekyll-terser.git is not yet checked out. Please run `bundle install` before trying to start your application (Bundler::GitError)
+# ADD Gemfile.lock /srv/jekyll
 ADD Gemfile /srv/jekyll
 
 # set the working directory

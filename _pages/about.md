@@ -2,10 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: > 
-  Department of Engineering for Innovation Medicine 
-  (Section of Engineering and Physics),
-  University of Verona 
+subtitle: # > 
+ # <p>Department of Engineering for Innovation Medicine (Section of Engineering and Physics), University of Verona</p>
 
 profile:
   align: right
