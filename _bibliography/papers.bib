@@ -447,14 +447,17 @@ Recently, SysML v2 has been proposed and is about to be released as the new vers
 }
 
 @misc{vitale2025processminingdrivenmodelingsimulation,
-      title={Process mining-driven modeling and simulation to enhance fault diagnosis in cyber-physical systems}, 
-      author={Francesco Vitale and Nicola Dall'Ora and Sebastiano Gaiardelli and Enrico Fraccaroli and Nicola Mazzocca and Franco Fummi},
-      year={2025},
-      eprint={2506.21502},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2506.21502}, 
-	  abstract={Fault diagnosis in Cyber-Physical Systems (CPSs) is essential for ensuring system dependability and operational efficiency by accurately detecting anomalies and identifying their root causes. However, the manual modeling of faulty behaviors often demands extensive domain expertise and produces models that are complex, error-prone, and difficult to interpret. To address this challenge, we present a novel unsupervised fault diagnosis methodology that integrates collective anomaly detection in multivariate time series, process mining, and stochastic simulation. Initially, collective anomalies are detected from low-level sensor data using multivariate time-series analysis. These anomalies are then transformed into structured event logs, enabling the discovery of interpretable process models through process mining. By incorporating timing distributions into the extracted Petri nets, the approach supports stochastic simulation of faulty behaviors, thereby enhancing root cause analysis and behavioral understanding. The methodology is validated using the Robotic Arm Dataset (RoAD), a widely recognized benchmark in smart manufacturing. Experimental results demonstrate its effectiveness in modeling, simulating, and classifying faulty behaviors in CPSs. This enables the creation of comprehensive fault dictionaries that support predictive maintenance and the development of digital twins for industrial environments.}
+title = {Process mining-driven modeling and simulation to enhance fault diagnosis in cyber–physical systems},
+journal = {Journal of Manufacturing Systems},
+volume = {84},
+pages = {189-206},
+year = {2026},
+issn = {0278-6125},
+doi = {https://doi.org/10.1016/j.jmsy.2025.12.005},
+url = {https://www.sciencedirect.com/science/article/pii/S0278612525003048},
+author = {Francesco Vitale and Nicola Dall’Ora and Sebastiano Gaiardelli and Enrico Fraccaroli and Nicola Mazzocca and Franco Fummi},
+keywords = {Fault diagnosis, Simulation, Modeling, Classification, Process mining},
+abstract = {Cyber–Physical Systems (CPSs) tightly interconnect digital and physical operations within production environments, enabling real-time monitoring, control, optimization, and autonomous decision-making that directly enhance manufacturing processes and productivity. The inherent complexity of these systems can lead to faults that require robust and interpretable diagnoses to maintain system dependability and operational efficiency. However, manual modeling of faulty behaviors requires extensive domain expertise and cannot leverage the low-level sensor data of the CPS. Furthermore, although powerful, deep learning-based techniques produce black-box diagnostics that lack interpretability, limiting their practical adoption. To address these challenges, we set forth a method that performs unsupervised characterization of system states and state transitions from low-level sensor data, uses several process mining techniques to model faults through interpretable stochastic Petri nets, simulates such Petri nets for a comprehensive understanding of system behavior under faulty conditions, and performs Petri net-based fault diagnosis. The method begins with detecting collective anomalies involving multiple samples in low-level sensor data. These anomalies are then transformed into structured event logs, enabling the data-driven discovery of interpretable Petri nets through process mining. By enhancing these Petri nets with timing distributions, the approach supports the simulation of faulty behaviors. Finally, faults can be diagnosed online by checking collective anomalies with the Petri nets and the corresponding simulations. The method is applied to the Robotic Arm Dataset (RoAD), a benchmark collected from a robotic arm deployed in a scale-replica smart manufacturing assembly line. The application to RoAD demonstrates the method’s effectiveness in modeling, simulating, and classifying faulty behaviors in CPSs. The modeling results demonstrate that our method achieves a satisfactory interpretability-simulation accuracy trade-off with up to 0.676 arc-degree simplicity, 0.395 R2, and 0.088 RMSE. In addition, the fault identification results show that the method achieves an F1 score of up to 98.925%, while maintaining a low conformance checking time of 0.020 s, which competes with other deep learning-based methods.}
 }
 
 % INDIN
@@ -501,6 +504,9 @@ a real manufacturing system.},
 	year = {2025},
 	pages = {1-7}, 
 }
+
+% 
+
 
 % Under Review 
 
