@@ -3,16 +3,16 @@ layout: about
 title: about
 permalink: /
 subtitle: # > 
- # <p>Department of Engineering for Innovation Medicine (Section of Engineering and Physics), University of Verona</p>
+ # <p>School of Engineering and Design, Technical University of Munich</p>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Strada le Grazie, 15</p>
-    <p>Verona, Italy I-37134</p>
-    <a href="mailto:sebastiano.gaiardelli@univr.it">sebastiano.gaiardelli@univr.it</a>
+    <p>Boltzmannstraße 15</p>
+    <p>Garching b. München, Germany 85748</p>
+    <a href="mailto:sebastiano.gaiardelli@tum.de">sebastiano.gaiardelli@tum.de</a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Research Fellow in Computer Science at the University of Verona, where my
+I am a Postdoctoral Researcher at the Technical University of Munich (TUM), where my
 research focuses on the development of advanced methodologies for the
 optimization, reconfiguration, and verification of Cyber-Physical Production 
 Systems (CPPSs). 
