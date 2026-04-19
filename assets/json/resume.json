@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Sebastiano Gaiardelli",
-    "label": "Ph.D. Student",
+    "label": "Postdoctoral Researcher",
     "image": "prof_pic.jpg",
-    "email": "sebastiano.gaiardelli@univr.it",
+    "email": "sebastiano.gaiardelli@tum.de",
     //"phone": "TODO",
     "url": "https://sbgaia.github.io/",
     //"summary": "TODO",
     "location": {
-      "address": "Strada le Grazie, 15",
-      "postalCode": "I-37134",
-      "city": "Verona",
-      "countryCode": "IT",
+      "address": "Boltzmannstraße 15",
+      "postalCode": "85748",
+      "city": "Garching b. München",
+      "countryCode": "DE",
       "region": ""
     },
     "profiles": [
@@ -24,16 +24,34 @@
   },
   "education": [
     {
-      "institution": "University of Verona, Verona, Italy",
+      "institution": "Technical University of Munich (TUM)",
+      "location": "Munich, Germany",
+      //"url": "https://www.ed.tum.de/ed/startseite/",
+      "area": "Cyber-Physical Systems in Production Engineering",
+      "studyType": "Postdoctoral Researcher",
+      "startDate": "2026-04-01",
+      "endDate": ""
+    },
+    {
+      "institution": "Department of Computer Science, University of Verona",
+      "location": "Verona, Italy",
+      //"url": "https://www.ed.tum.de/ed/startseite/",
+      "area": "Computer Science",
+      "studyType": "Postdoctoral Researcher",
+      "startDate": "2024-08-01",
+      "endDate": "2026-03-31"
+    },
+    {
+      "institution": "Department of Computer Science, University of Verona",
       "location": "Verona, Italy",
       //"url": "https://www.di.univr.it/?ent=cs&id=635",
       "area": "Computer Science and Engineering",
       "studyType": "PhD",
       "startDate": "2021-08-01",
-      "endDate": "2025"
+      "endDate": "2024-07-31"
     },
     {
-      "institution": "University of Verona, Verona, Italy",
+      "institution": "Department of Computer Science, University of Verona",
       "location": "Verona, Italy",
       //"url": "https://www.corsi.univr.it/?ent=cs&id=417",
       "area": "Computer Science and Engineering - curriculum Embedded Systems",
@@ -44,7 +62,7 @@
       "thesis": "Meta-MES: A Scheduling Architecture for Flexible Automation"
     },
     {
-      "institution": "University of Verona, Verona, Italy",
+      "institution": "Department of Computer Science, University of Verona",
       "location": "Verona, Italy",
       //"url": "https://www.corsi.univr.it/?ent=cs&id=420",
       "area": "Computer Science",
